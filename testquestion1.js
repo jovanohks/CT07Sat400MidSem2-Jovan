@@ -1,2 +1,5 @@
 let ball;
+function setup(){
+    
+}
 
