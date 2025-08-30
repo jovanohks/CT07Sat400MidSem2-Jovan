@@ -5,7 +5,7 @@ function setup(){
     world.gravity.y = 10
 }
 function draw(){
-    background(0); //background to stop ball from leaving 'trail on screen
+    background(0); //background to stop ball from leaving 'trail' on screen
     if (mouse.presses('left')){
         spawnBall();
     }
