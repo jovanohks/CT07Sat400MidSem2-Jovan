@@ -5,7 +5,7 @@ function setup(){
     world.gravity.y = 10
 }
 function draw(){
-    background(0);
+    background(0); //background to sto
     if (mouse.presses('left')){
         spawnBall();
     }
