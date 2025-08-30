@@ -3,6 +3,7 @@ function setup(){
 
     new Canvas(600,400);
     world.gravity.y = 10
+    ground = new Sprite(600,30,static);
 }
 function draw(){
     background(0); //background to stop ball from leaving 'trail' on screen
