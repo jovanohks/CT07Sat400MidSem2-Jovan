@@ -9,6 +9,6 @@ function draw(){
     }
 }
 function spawnBall(){
-    ball = new Sprite(mouse.x,mouse.y,20);
+    ball = new Sprite(mouse.x,mouse.y,20);  //make s
 
 }
