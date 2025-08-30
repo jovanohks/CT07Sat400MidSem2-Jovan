@@ -3,7 +3,7 @@ function setup(){
 
     new Canvas(600,400);
     world.gravity.y = 10
-    ground = new Sprite(0,400,30,600,'static');
+    ground = new Sprite(0,600,600,30,'static');
     ground.bounciness = 1;
 }
 function draw(){
