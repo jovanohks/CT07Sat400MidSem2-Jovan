@@ -1,10 +1,11 @@
 let ball;
 function setup(){
+    background(0);
     new Canvas(600,400);
     world.gravity.y = 10
 }
 function draw(){
-    background(0);
+    
     if (mouse.presses('left')){
         spawnBall();
     }
